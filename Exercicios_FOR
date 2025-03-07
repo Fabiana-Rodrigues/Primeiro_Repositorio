@@ -1,0 +1,381 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOqD+ArExFIYZzp/cZgL0jI",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Fabiana-Rodrigues/Python-Exercicios-FOR/blob/main/Exercicios_FOR\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "_v43UMjqfzIa",
+        "outputId": "909a861a-ac1e-4854-ec35-684d05af411d"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Olá Mundo!\n",
+            "Olá Mundo!\n",
+            "Olá Mundo!\n",
+            "Olá Mundo!\n",
+            "Olá Mundo!\n"
+          ]
+        }
+      ],
+      "source": [
+        "# Imprimir \"Olá Mundo!\"; 5 vezes\n",
+        "#Escreva um programa que utilize um laço for para imprimir a mensagem \"Olá Mundo!\" cinco vezes na tela.\n",
+        "\n",
+        "for contador in range (5):\n",
+        "  print(\"Olá Mundo!\")\n",
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Contar de 1 a 50\n",
+        "\n",
+        "for i in range (1,51):\n",
+        "  print(i)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "cmfu3489hRwE",
+        "outputId": "5816aa07-55bd-4f8c-cc3c-96987a22398b"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "1\n",
+            "2\n",
+            "3\n",
+            "4\n",
+            "5\n",
+            "6\n",
+            "7\n",
+            "8\n",
+            "9\n",
+            "10\n",
+            "11\n",
+            "12\n",
+            "13\n",
+            "14\n",
+            "15\n",
+            "16\n",
+            "17\n",
+            "18\n",
+            "19\n",
+            "20\n",
+            "21\n",
+            "22\n",
+            "23\n",
+            "24\n",
+            "25\n",
+            "26\n",
+            "27\n",
+            "28\n",
+            "29\n",
+            "30\n",
+            "31\n",
+            "32\n",
+            "33\n",
+            "34\n",
+            "35\n",
+            "36\n",
+            "37\n",
+            "38\n",
+            "39\n",
+            "40\n",
+            "41\n",
+            "42\n",
+            "43\n",
+            "44\n",
+            "45\n",
+            "46\n",
+            "47\n",
+            "48\n",
+            "49\n",
+            "50\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Exibir números ímpares de 1 a 20\n",
+        "\n",
+        "for n in range (1,21,2):\n",
+        "  print(n)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "hdNK9kO4hgpt",
+        "outputId": "bd553059-a79d-49ca-cf89-1e9b9e77d6fc"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "1\n",
+            "3\n",
+            "5\n",
+            "7\n",
+            "9\n",
+            "11\n",
+            "13\n",
+            "15\n",
+            "17\n",
+            "19\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Multiplicar cada número de uma lista por 2\n",
+        "\n",
+        "numero = [1,2,3,4,5,6,7]\n",
+        "for j in numero:\n",
+        "  print(j*2)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "SFCT0tPjiEkA",
+        "outputId": "50b4de1b-8b8b-426e-e566-0526454f2101"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "2\n",
+            "4\n",
+            "6\n",
+            "8\n",
+            "10\n",
+            "12\n",
+            "14\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Imprimir os caracteres de uma palavra separadamente\n",
+        "\n",
+        "palavra = input(\"Digite uma palavra: \")\n",
+        "\n",
+        "for contador in palavra:\n",
+        "    print(contador)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "q1Ql3L97kpJb",
+        "outputId": "6e3672b3-6daa-475c-8dc0-6fe486a67dbd"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite uma palavra: casa\n",
+            "c\n",
+            "a\n",
+            "s\n",
+            "a\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Contagem de 10 até 1\n",
+        "\n",
+        "for i in range(10,0, -1):\n",
+        "  print(i)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "rlYWfcyqlbZJ",
+        "outputId": "9c34a6cf-6dad-45d0-c8ca-b086291ca065"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "10\n",
+            "9\n",
+            "8\n",
+            "7\n",
+            "6\n",
+            "5\n",
+            "4\n",
+            "3\n",
+            "2\n",
+            "1\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Somar os números de 1 a 10\n",
+        "\n",
+        "soma = 0\n",
+        "for i in range(1,11):\n",
+        "  soma +=i\n",
+        "  print(soma)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "AyNumkpRlwGD",
+        "outputId": "8ef0268d-af7c-4e20-e32d-e944affaf028"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "1\n",
+            "3\n",
+            "6\n",
+            "10\n",
+            "15\n",
+            "21\n",
+            "28\n",
+            "36\n",
+            "45\n",
+            "55\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Pedir 5 números ao usuário e exibi-los\n",
+        "\n",
+        "for i in range (5):\n",
+        "  num2 = int(input(\"Digite um número: \"))\n",
+        "  print(f\"Você digitou o número: {num2}\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "vYaHkKKTmdoF",
+        "outputId": "8b66877b-ce82-4d5a-f329-d839f7c34cc5"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite um número: 78\n",
+            "Você digitou o número: 78\n",
+            "Digite um número: 52\n",
+            "Você digitou o número: 52\n",
+            "Digite um número: 3\n",
+            "Você digitou o número: 3\n",
+            "Digite um número: 98\n",
+            "Você digitou o número: 98\n",
+            "Digite um número: 36\n",
+            "Você digitou o número: 36\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Exibir a tabuada do 7\n",
+        "\n",
+        "for i in range (1,11):\n",
+        "  print(f\"7 x {i} = {7*i}\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "QphGEGfTmpr1",
+        "outputId": "daa5d474-ed5c-473e-8ea5-7626e90863ac"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "7 x 1 = 7\n",
+            "7 x 2 = 14\n",
+            "7 x 3 = 21\n",
+            "7 x 4 = 28\n",
+            "7 x 5 = 35\n",
+            "7 x 6 = 42\n",
+            "7 x 7 = 49\n",
+            "7 x 8 = 56\n",
+            "7 x 9 = 63\n",
+            "7 x 10 = 70\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
