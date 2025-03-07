@@ -1,0 +1,276 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyP/SpyISuuIXMZzfLa697hP",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Fabiana-Rodrigues/Python-Exercicios-FOR/blob/main/Estruturas_Condicionais_Encadeadas\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "J-kybscx45uN",
+        "outputId": "7445233d-028d-4dd7-914a-8a2176a97bea"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite a nota50\n",
+            "Nota E\n"
+          ]
+        }
+      ],
+      "source": [
+        "# Escreva um programa que leia a nota de um aluno (de 0 a 100) e classifique-a.\n",
+        "# • \"A\" se nota ≥ 90;\n",
+        "# • \"B\" se 80 ≤ nota < 90;\n",
+        "# • \"C\" se 70 ≤ nota < 80;\n",
+        "# • \"D\" se 60 ≤ nota < 70;\n",
+        "# • \"F\" se nota < 60.\n",
+        "\n",
+        "nota = float(input(\"Digite a nota\"))\n",
+        "\n",
+        "if nota >= 90:\n",
+        "  print(\"Nota A\")\n",
+        "\n",
+        "elif nota >=80 and nota <90:\n",
+        "  print(\"Nota B\")\n",
+        "\n",
+        "elif nota >=70 and nota <80:\n",
+        "  print(\"Nota C\")\n",
+        "\n",
+        "elif nota >=60 and nota <70:\n",
+        "  print(\"Nota D\")\n",
+        "\n",
+        "else:\n",
+        "  print(\"Nota E\")\n",
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Crie um programa que leia a idade de uma pessoa\n",
+        "# • \"Criança\" se a idade for menor que 12;\n",
+        "# • \"Adolescente\" se estiver entre 12 e 17;\n",
+        "# • \"Adulto\" se estiver entre 18 e 64;\n",
+        "# • \"Idoso\" se for 65 ou mais.\n",
+        "\n",
+        "idade = int(input(\"Digite a idade\"))\n",
+        "\n",
+        "if idade <12:\n",
+        "  print(\"Criança\")\n",
+        "\n",
+        "elif idade >= 12 and idade <= 17:\n",
+        "  print(\"Adolescente\")\n",
+        "\n",
+        "elif idade >=18 and idade <=64:\n",
+        "  print(\"Adulto\")\n",
+        "\n",
+        "else:\n",
+        "  print(\"Idoso\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "wZRZ1LBX8H4C",
+        "outputId": "408c8d78-0cbd-45ab-c09d-8d261630a1c7"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite a idade70\n",
+            "Idoso\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Desenvolva um programa que calcule o IMC (Índice de Massa Corporal) de uma pessoa\n",
+        "# • \"Abaixo do peso\" se IMC < 18.5;\n",
+        "# • \"Peso normal\" se 18.5 ≤ IMC < 25;\n",
+        "# • \"Sobrepeso\" se 25 ≤ IMC < 30;\n",
+        "# • \"Obesidade\" se IMC ≥ 30.\n",
+        "\n",
+        "peso = float(input(\"Digite seu peso: \"))\n",
+        "altura = float(input(\"Digite sua altura: \"))\n",
+        "\n",
+        "imc = peso/(altura**2)\n",
+        "\n",
+        "\n",
+        "if imc < 18.5:\n",
+        "  print(\"Abaixo do peso\")\n",
+        "\n",
+        "elif imc >= 18.5 and imc <25:\n",
+        "  print(\"Peso normal\")\n",
+        "\n",
+        "elif imc >= 25 and imc <30:\n",
+        "  print(\"Sobrepeso\")\n",
+        "\n",
+        "else:\n",
+        "  print(\"Obesidade\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "wbtXy6qN9mim",
+        "outputId": "ee534e85-eaa0-4056-cd5b-e0be778c9951"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite seu peso: 120\n",
+            "Digite sua altura: 1.68\n",
+            "Obesidade\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "YxTNGmoUAcyB"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Crie um programa que calcule o bônus de um funcionário com base no tempo de serviço:\n",
+        "\n",
+        "# • Sem bônus para menos de 1 ano;\n",
+        "# • Bônus de 5% para 1 a 3 anos;\n",
+        "# • Bônus de 10% para 3 a 5 anos;\n",
+        "# • Bônus de 15% para mais de 5 anos.\n",
+        "# • Solicite o salário e o tempo de serviço, e exiba o salário final com bônus (se aplicável).\n",
+        "\n",
+        "tempo = float(input(\"Informe o tempo de serviço: \"))\n",
+        "salario = float(input(\"Informe o salário: \"))\n",
+        "\n",
+        "if tempo <1:\n",
+        "  print(\"Sem bônus\")\n",
+        "\n",
+        "elif tempo >= 1 and tempo <=3:\n",
+        "  print(f\"O salário com o bônus é: {salario * (5/100) + salario:.2f}\")\n",
+        "\n",
+        "elif tempo >3 and tempo <=5:\n",
+        "  print(f\"O salário com o bônus é: {salario * (10/100) + salario:.2f}\")\n",
+        "\n",
+        "else:\n",
+        "  print(f\"O salário com o bônus é: {salario * (15/100) + salario:.2f}\")\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "3jLayo9zAMIa",
+        "outputId": "b4185cb1-ce99-4db8-a708-08f5238d5c6b"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Informe o tempo de serviço: 1.5\n",
+            "Informe o salário: 300\n",
+            "O salário com o bônus é: 315.00\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Escreva um programa que leia a velocidade de um veículo e a classifique em:\n",
+        "# • \"Baixa velocidade\" para velocidades até 40 km/h;\n",
+        "# • \"Velocidade moderada\" para velocidades entre 41 e 80 km/h;\n",
+        "# • \"Velocidade alta\" para velocidades entre 81 e 120 km/h;\n",
+        "# • \"Velocidade muito alta\" para velocidades acima de 120 km/h.\n",
+        "\n",
+        "velocidade = float(input(\"Informe a velocidade: \"))\n",
+        "\n",
+        "if velocidade <= 40:\n",
+        "  print(\"Baixa velocidade\")\n",
+        "\n",
+        "elif velocidade >40 and velocidade <= 80:\n",
+        "  print(\"Velocidade moderada\")\n",
+        "\n",
+        "elif velocidade >80 and velocidade <= 120:\n",
+        "  print(\"Velocidade alta\")\n",
+        "\n",
+        "else:\n",
+        "  print(\"Velocidade muito alta\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "m4VW1gKND1vt",
+        "outputId": "3f318c45-3a91-4f45-e16b-6d1ac131c06c"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Informe a velocidade: 150\n",
+            "Velocidade muito alta\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "QE02e16xAZUr"
+      }
+    }
+  ]
+}
